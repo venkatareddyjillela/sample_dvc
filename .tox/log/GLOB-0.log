@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: C:\Users\venka\Desktop\mlops_ineuron\sample_app
-cmd: 'c:\users\venka\appdata\local\programs\python\python38\python.exe' setup.py sdist --formats=zip --dist-dir 'C:\Users\venka\Desktop\mlops_ineuron\sample_app\.tox\dist'
+cmd: 'c:\users\venka\appdata\local\programs\python\python38\python.exe' setup.py sdist --formats=zip --dist-dir '.tox\dist'
 running sdist
 running egg_info
 writing src.egg-info\PKG-INFO
@@ -33,8 +33,7 @@ copying tests\__init__.py -> src-1.0.0\tests
 copying tests\conftest.py -> src-1.0.0\tests
 copying tests\test_config.py -> src-1.0.0\tests
 Writing src-1.0.0\setup.cfg
-creating C:\Users\venka\Desktop\mlops_ineuron\sample_app\.tox\dist
-creating 'C:\Users\venka\Desktop\mlops_ineuron\sample_app\.tox\dist\src-1.0.0.zip' and adding 'src-1.0.0' to it
+creating '.tox\dist\src-1.0.0.zip' and adding 'src-1.0.0' to it
 adding 'src-1.0.0'
 adding 'src-1.0.0\src'
 adding 'src-1.0.0\src.egg-info'
