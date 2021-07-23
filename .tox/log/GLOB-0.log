@@ -14,12 +14,15 @@ warning: check: missing required meta-data: url
 warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
 
 creating src-1.0.0
+creating src-1.0.0\prediction_service
 creating src-1.0.0\src
 creating src-1.0.0\src.egg-info
 creating src-1.0.0\tests
 copying files to src-1.0.0...
 copying README.md -> src-1.0.0
 copying setup.py -> src-1.0.0
+copying prediction_service\__init__.py -> src-1.0.0\prediction_service
+copying prediction_service\prediction.py -> src-1.0.0\prediction_service
 copying src\__init__.py -> src-1.0.0\src
 copying src\get_data.py -> src-1.0.0\src
 copying src\load_data.py -> src-1.0.0\src
@@ -35,6 +38,7 @@ copying tests\test_config.py -> src-1.0.0\tests
 Writing src-1.0.0\setup.cfg
 creating '.tox\dist\src-1.0.0.zip' and adding 'src-1.0.0' to it
 adding 'src-1.0.0'
+adding 'src-1.0.0\prediction_service'
 adding 'src-1.0.0\src'
 adding 'src-1.0.0\src.egg-info'
 adding 'src-1.0.0\tests'
@@ -42,6 +46,8 @@ adding 'src-1.0.0\PKG-INFO'
 adding 'src-1.0.0\README.md'
 adding 'src-1.0.0\setup.cfg'
 adding 'src-1.0.0\setup.py'
+adding 'src-1.0.0\prediction_service\prediction.py'
+adding 'src-1.0.0\prediction_service\__init__.py'
 adding 'src-1.0.0\src\get_data.py'
 adding 'src-1.0.0\src\load_data.py'
 adding 'src-1.0.0\src\split_data.py'
